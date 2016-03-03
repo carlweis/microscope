@@ -1,7 +1,9 @@
 <template name="postsList">
-  <div class="posts">
-    {{#each posts}}
-      {{> postItem}}
-    {{/each}}
+ <div class="transitions-content">
+    <div class="card-columns">
+      {{#each posts}}
+        {{> postItem}}
+      {{/each}}
+    </div>
   </div>
 </template>

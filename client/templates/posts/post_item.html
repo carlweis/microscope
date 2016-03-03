@@ -1,7 +1,17 @@
 <template name="postItem">
-  <div class="post">
-    <div class="post-content">
-      <h3><a href="{{url}}">{{title}}</a><span>{{domain}}</span></h3>
+<div class="card">
+  <div class="transitions-content">
+    <div class="card-block">
+      <h4 class="card-title"><a href="{{url}}">{{title}}</a></h4>
+      <h6 class="card-subtitle text-muted">{{domain}}</h6>
+      <p class="card-text">
+        Description goes here...
+      </p>
+      <a href="{{pathFor 'postPage'}}"
+        class="discuss btn btn-success-outline"
+        data-transition-out="slideFadeRightOut"
+      data-transition-in="slideFadeRightIn">Discuss</a>
     </div>
   </div>
+</div>
 </template>

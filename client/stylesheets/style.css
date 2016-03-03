@@ -1,3 +1,17 @@
+
+.card-inverse {
+  background-color: #333; 
+  border-color: #333;
+}
+
+.transitions-container {
+  height: 100%;
+}
+.transitions-content{
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+}
+
 .grid-block, .main, .post, .comments li, .comment-form {
   background: #fff;
   border-radius: 3px;
