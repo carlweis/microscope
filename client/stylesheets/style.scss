@@ -1,4 +1,16 @@
+$brand-primary: #6064ad;
 
+ a {
+  color: #6064ad;
+ }
+.navbar-brand {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.875em;
+  span {
+    font-weight: bold;
+  }
+}
 .card-inverse {
   background-color: #333; 
   border-color: #333;
@@ -6,6 +18,7 @@
 
 .transitions-container {
   height: 100%;
+  min-height: 100vh;
 }
 .transitions-content{
   overflow-y: hidden !important;
