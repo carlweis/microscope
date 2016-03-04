@@ -1,17 +1,8 @@
- <template name="layout">
-   <div class="container">
-    <header class="navbar navbar-default" role="navigation"> 
-      <div class="navbar-header">
-        <a class="navbar-brand" 
-            href="{{ pathFor 'postsList'}}"
-            data-transition-out="slideFadeLeftOut" 
-            data-transition-in="slideFadeLeftIn">Micro<span>scope</span></a>
-      </div>
-    </header>
-    <div id="main">
-      <div class="transitions-container">
-      {{> yield}}
-      </div>
-    </div>
+<template name="layout">
+<div class="layout-container">
+   {{> header}}
+  <div id="main" class="container">
+    {{> yield}}
   </div>
+</div>
 </template>

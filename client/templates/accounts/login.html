@@ -1,0 +1,18 @@
+<template name="login">
+
+  <h1 class="title">Sign In</h1>
+      <form id="login-form" action="action">
+        <fieldset>
+          <label for="login-email">Email</label>
+          <input type="email" id="login-email" placeholder="Email" />
+        </fieldset>
+        <fieldset>
+          <label for="login-password">Password</label>
+          <input type="password" id="login-password" placeholder="Password" />
+        </fieldset>
+        <fieldset>
+          <input type="submit" id="login-button" value="Sign in" />
+        </fieldset>
+   </form> 
+   {{> registerLink}}
+</template>

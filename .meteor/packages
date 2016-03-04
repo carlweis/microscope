@@ -18,8 +18,11 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 insecure                # Allow all DB writes from clients (for prototyping)
 coursierprive:tether
-twbs:bootstrap@=4.0.0-alpha.2
 iron:router
 sacha:spin
-jamielob:transitions
 fourseven:scss
+accounts-base
+accounts-password
+useraccounts:core
+twbs:bootstrap
+ian:accounts-ui-bootstrap-3
